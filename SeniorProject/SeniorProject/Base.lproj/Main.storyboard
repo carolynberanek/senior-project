@@ -137,6 +137,10 @@
                             <constraint firstItem="s5b-qL-f4y" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="nz4-PV-u6d"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="newEntryButton" destination="BEk-aF-UFA" id="rly-ft-lxF"/>
+                        <outlet property="pastEntriesList" destination="695-8d-YF6" id="75H-lo-don"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
