@@ -158,8 +158,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="center" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="2Nq-te-gsb">
-                                <rect key="frame" x="0.0" y="21" width="375" height="627"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="2Nq-te-gsb">
+                                <rect key="frame" x="0.0" y="21" width="375" height="598"/>
                                 <subviews>
                                     <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHW-tT-s8C">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -175,14 +175,14 @@
                                         </items>
                                     </navigationBar>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wJc-t2-P1k">
-                                        <rect key="frame" x="67.5" y="109" width="240" height="394"/>
+                                        <rect key="frame" x="0.0" y="109" width="375" height="394"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWR-ZP-VY5">
-                                        <rect key="frame" x="0.0" y="568" width="375" height="59"/>
+                                        <rect key="frame" x="92" y="568" width="191" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="yWR-ZP-VY5" secondAttribute="height" multiplier="343:54" id="Xla-Qw-Gs8"/>
@@ -194,14 +194,12 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="2Nq-te-gsb" secondAttribute="height" multiplier="125:209" id="65d-VZ-zoj"/>
+                                    <constraint firstItem="wJc-t2-P1k" firstAttribute="leading" secondItem="2Nq-te-gsb" secondAttribute="leading" id="1rh-gQ-ajk"/>
+                                    <constraint firstAttribute="trailing" secondItem="wJc-t2-P1k" secondAttribute="trailing" id="pNt-GY-Gdg"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="f2d-FE-rzi" firstAttribute="top" secondItem="2Nq-te-gsb" secondAttribute="bottom" id="0gC-6N-uoa"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
