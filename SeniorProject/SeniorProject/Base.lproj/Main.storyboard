@@ -120,7 +120,7 @@
             </objects>
             <point key="canvasLocation" x="727.20000000000005" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--New Entry-->
         <scene sceneID="rYq-aI-Qwt">
             <objects>
                 <viewController id="eWT-u3-4dd" sceneMemberID="viewController">
@@ -163,7 +163,7 @@
                             <constraint firstItem="wJc-t2-P1k" firstAttribute="leading" secondItem="nsx-QE-kR2" secondAttribute="leadingMargin" constant="-12" id="5gZ-bU-5zb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="PHR-FX-o8n"/>
+                    <navigationItem key="navigationItem" title="New Entry" id="PHR-FX-o8n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Kq1-h0-Xbo" userLabel="Exit" sceneMemberID="exit"/>
