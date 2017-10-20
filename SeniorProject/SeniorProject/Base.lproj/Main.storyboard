@@ -147,7 +147,10 @@
                             <constraint firstItem="wJc-t2-P1k" firstAttribute="leading" secondItem="nsx-QE-kR2" secondAttribute="leadingMargin" constant="-12" id="5gZ-bU-5zb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="New Entry" id="PHR-FX-o8n"/>
+                    <navigationItem key="navigationItem" title="New Entry" id="PHR-FX-o8n">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PN8-2U-iha"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="SGB-HU-KW1"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
