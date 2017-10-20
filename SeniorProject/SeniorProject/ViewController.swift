@@ -14,11 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var pastEntriesList: UITableView!
     var entries: [String] = []
     
-    
-    
-    @IBAction func addEntry(_ sender: Any) {
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         pastEntriesList.register(UITableViewCell.self,

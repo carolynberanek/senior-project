@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -132,20 +131,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWR-ZP-VY5">
-                                <rect key="frame" x="92" y="567" width="191" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="yWR-ZP-VY5" secondAttribute="height" multiplier="343:54" id="Xla-Qw-Gs8"/>
-                                </constraints>
-                                <color key="tintColor" red="0.30783420140000001" green="0.47352430559999997" blue="0.76255969869999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Add to Journal">
-                                    <color key="titleColor" red="0.30783420140000001" green="0.47352430559999997" blue="0.76255969869999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="addEntry:" destination="Kq1-h0-Xbo" eventType="touchUpInside" id="M0N-oT-utw"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wJc-t2-P1k">
                                 <rect key="frame" x="4" y="103" width="367" height="424"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -159,14 +144,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yWR-ZP-VY5" firstAttribute="top" secondItem="wJc-t2-P1k" secondAttribute="bottom" constant="40" id="35y-PQ-ZNt"/>
                             <constraint firstItem="wJc-t2-P1k" firstAttribute="leading" secondItem="nsx-QE-kR2" secondAttribute="leadingMargin" constant="-12" id="5gZ-bU-5zb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Entry" id="PHR-FX-o8n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Kq1-h0-Xbo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2340" y="36"/>
         </scene>
