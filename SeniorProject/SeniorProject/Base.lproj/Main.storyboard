@@ -106,7 +106,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Journal Entries" id="bZP-Rf-ISX">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="nfk-DE-7vu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="nfk-DE-7vu">
+                            <connections>
+                                <segue destination="eWT-u3-4dd" kind="presentation" id="VRC-E3-5VN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="pastEntriesList" destination="695-8d-YF6" id="75H-lo-don"/>
@@ -179,7 +183,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Kq1-h0-Xbo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1415.2" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1559" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aLO-QQ-pEX">
