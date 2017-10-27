@@ -10,10 +10,16 @@ import UIKit
 
 class NewEntryViewController: UIViewController {
 
+    @IBOutlet weak var entryContent: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let color : UIColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1.0)
+        entryContent.layer.borderWidth = 0.5
+        entryContent.layer.borderColor = color.cgColor
+        entryContent.layer.cornerRadius = 5.0
     }
 
     override func didReceiveMemoryWarning() {
