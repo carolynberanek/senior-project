@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EntryListViewController: UIViewController {
 
     @IBOutlet weak var pastEntriesList: UITableView!
     var entries: [String] = []
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UITableViewDataSource {
+extension EntryListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
