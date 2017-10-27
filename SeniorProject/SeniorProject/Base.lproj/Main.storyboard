@@ -153,6 +153,9 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PN8-2U-iha"/>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="SGB-HU-KW1"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="entryContent" destination="BbY-de-jiK" id="i8e-oa-1uO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
