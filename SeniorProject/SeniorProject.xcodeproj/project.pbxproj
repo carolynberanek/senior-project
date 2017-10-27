@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A627E541FA38FE400641CAF /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A627E531FA38FE400641CAF /* NewEntryViewController.swift */; };
 		7E29386B1F698F02008ADEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29386A1F698F02008ADEFB /* AppDelegate.swift */; };
 		7E29386D1F698F02008ADEFB /* EntryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29386C1F698F02008ADEFB /* EntryListViewController.swift */; };
 		7E2938701F698F02008ADEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E29386E1F698F02008ADEFB /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A627E531FA38FE400641CAF /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
 		7E2938671F698F02008ADEFB /* SeniorProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E29386A1F698F02008ADEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E29386C1F698F02008ADEFB /* EntryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				7E29386A1F698F02008ADEFB /* AppDelegate.swift */,
 				7E29386C1F698F02008ADEFB /* EntryListViewController.swift */,
+				4A627E531FA38FE400641CAF /* NewEntryViewController.swift */,
 				7E29386E1F698F02008ADEFB /* Main.storyboard */,
 				7E2938741F698F02008ADEFB /* Assets.xcassets */,
 				7E2938761F698F02008ADEFB /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				7E29386D1F698F02008ADEFB /* EntryListViewController.swift in Sources */,
 				7E2938731F698F02008ADEFB /* SeniorProject.xcdatamodeld in Sources */,
+				4A627E541FA38FE400641CAF /* NewEntryViewController.swift in Sources */,
 				7E29386B1F698F02008ADEFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
