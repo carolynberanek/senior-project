@@ -122,7 +122,7 @@
         <!--New Entry-->
         <scene sceneID="rYq-aI-Qwt">
             <objects>
-                <viewController id="eWT-u3-4dd" sceneMemberID="viewController">
+                <viewController id="eWT-u3-4dd" customClass="NewEntryViewController" customModule="SeniorProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gNc-hB-Sya"/>
                         <viewControllerLayoutGuide type="bottom" id="f2d-FE-rzi"/>
