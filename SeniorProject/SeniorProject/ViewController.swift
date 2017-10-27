@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var newEntryButton: UIButton!
     @IBOutlet weak var pastEntriesList: UITableView!
     var entries: [String] = []
     
