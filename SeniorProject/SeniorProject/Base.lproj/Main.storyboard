@@ -162,7 +162,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Entry" id="PHR-FX-o8n">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PN8-2U-iha"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PN8-2U-iha">
+                            <connections>
+                                <action selector="cancel:" destination="eWT-u3-4dd" id="rd4-66-1x9"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="SGB-HU-KW1"/>
                     </navigationItem>
                     <connections>
