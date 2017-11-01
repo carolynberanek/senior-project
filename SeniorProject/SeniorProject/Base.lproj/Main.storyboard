@@ -171,6 +171,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="entryContent" destination="BbY-de-jiK" id="i8e-oa-1uO"/>
+                        <outlet property="saveButton" destination="SGB-HU-KW1" id="9ms-iA-CSf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xr-5z-O2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
