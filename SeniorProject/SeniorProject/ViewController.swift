@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var newEntryButton: UIButton!
     @IBOutlet weak var pastEntriesList: UITableView!
-    var entries: [String] = []
+    var entries: [NSManagedObject] = []
     
     
     
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UITableViewDataSource {
+/*extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
@@ -52,5 +53,5 @@ extension ViewController: UITableViewDataSource {
             cell.textLabel?.text = entries[indexPath.row]
             return cell
     }
-}
+}*/
 
