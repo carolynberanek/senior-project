@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EntryListViewController.swift
 //  SeniorProject
 //
 //  Created by Carolyn Beranek on 9/13/17.
@@ -9,21 +9,13 @@
 import UIKit
 import CoreData
 
-class ViewController: UIViewController {
+class EntryListViewController: UIViewController {
 
-    @IBOutlet weak var newEntryButton: UIButton!
     @IBOutlet weak var pastEntriesList: UITableView!
     var entries: [NSManagedObject] = []
     
-    
-    
-    @IBAction func addEntry(_ sender: Any) {
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        title = "Past Entries"
         pastEntriesList.register(UITableViewCell.self,
                            forCellReuseIdentifier: "Cell")
     }
