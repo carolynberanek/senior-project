@@ -24,6 +24,11 @@ class EntryListViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func unwindToJEVC (segue: UIStoryboardSegue)
+    {
+        
+    }
 
 
 }

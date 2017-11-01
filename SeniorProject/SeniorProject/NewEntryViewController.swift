@@ -51,4 +51,8 @@ class NewEntryViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func save(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "unwindSegueToJE", sender: self)
+    }
+    
 }
